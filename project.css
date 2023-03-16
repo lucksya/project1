@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.header {
+  min-height: 100vh;
+  width: 150%;
+  background-image: url(images/banner.jpg );
+  background-position: center;
+  background-size:cover;
+  position: relative;
+  background-attachment:fixed;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  
+}
+
+.logo {
+
+color: white;
+font-size: 30px;
+text-align: justify;
+padding-top: 10px;
+padding-left: 50px;
+font-style: italic;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 40%;
+  padding-right: 10%;
+  list-style-type;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 16px 32px;
+
+}
+
+nav ul li a {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font-weight: bold;
+  
+
+}
+
+nav ul {
+  float: right;
+
+  margin-right: 20px;
+
+}
+
+nav ul li a:hover {
+  color: gray;
+  transition: .3s;
+}
+
+
+
+
+.destinations video { position: absolute;
+top: 0;
+left: 0;
+object-fit: cover;
+width: 100%;
+height: 100%;
+pointer-events: none;
+background-attachment:fixed; 
+
+}
+
+
+
+
+
+
+
+.title { 
+position: absolute;
+z-index: 1;
+max-width: 1000px;
+margin: 0 auto;
+text-align: center;
+top: 120%;
+bottom: 0%;
+color: white;
+padding-top: 10px;
+padding-left: 50px;
+font-size: 30px;
+font-style: italic;
+font-weight: bold;
+}
+.main {
+  position: absolute;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  top: 115%;
+  color: white;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 50%;
+ justify-content: space-between;
+ font-size: 25px;
+ font-weight: bold;
+}
+.image {
+
+position:absolute;
+top: 137%;
+padding-left: 15%;
+
+}
+ .box { width: 500px;
+  height: 120px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+text-align: center;
+top: 1550px;
+position: absolute;
+left: 1000px;
+font-size: medium;
+color: white;
+border-radius: 10px;
+-webkit-text-stroke: 1px, cornflowerblue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+justify-content: space-between;
+ }
+ .box2 { width: 600px;
+  height: 600px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+text-align: center;
+position: absolute;
+top: 1435px;
+left: 240px;
+border-color: aliceblue;
+bottom: 250px;
+
+border-radius: 10px;
+
+}
